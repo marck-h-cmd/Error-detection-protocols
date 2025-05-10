@@ -74,7 +74,7 @@ public class JifParidad extends javax.swing.JInternalFrame {
 
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        JOptionPane.showMessageDialog(this, "LA SESTA", "FARCA", 0);
+        JOptionPane.showMessageDialog(this, "LA SESTA, ¡PECHOS FRÍOS!", "FARZZZZA", 0);
     }//GEN-LAST:event_jButton1ActionPerformed
 
 
