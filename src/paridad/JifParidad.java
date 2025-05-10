@@ -26,6 +26,7 @@ public class JifParidad extends javax.swing.JInternalFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+
         jLabel1 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
 
@@ -39,10 +40,12 @@ public class JifParidad extends javax.swing.JInternalFrame {
             }
         });
 
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
@@ -52,19 +55,23 @@ public class JifParidad extends javax.swing.JInternalFrame {
                         .addGap(169, 169, 169)
                         .addComponent(jButton1)))
                 .addContainerGap(59, Short.MAX_VALUE))
+
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
+
                 .addGap(57, 57, 57)
                 .addComponent(jLabel1)
                 .addGap(48, 48, 48)
                 .addComponent(jButton1)
                 .addContainerGap(126, Short.MAX_VALUE))
+
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         JOptionPane.showMessageDialog(this, "LA SESTA", "FARCA", 0);
@@ -74,5 +81,6 @@ public class JifParidad extends javax.swing.JInternalFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
+
     // End of variables declaration//GEN-END:variables
 }
