@@ -8,7 +8,7 @@ import javax.swing.JInternalFrame;
 import paridad.JifParidad;
 import polinomica.JifPolinomica;
 import redundanciaCiclica.JifCiclica;
-import redundanciaLongitudinal.Longitudinal;
+import redundanciaLongitudinal.JifLongitudinal;
 
 public class MainFrm extends javax.swing.JFrame {
 
@@ -114,7 +114,8 @@ public class MainFrm extends javax.swing.JFrame {
     }//GEN-LAST:event_jMenuItem3ActionPerformed
 
     private void jMenuItem5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem5ActionPerformed
-        
+        JifLongitudinal longitudinal = new JifLongitudinal();
+        centrarInternalFrame(longitudinal);
     }//GEN-LAST:event_jMenuItem5ActionPerformed
 
     private void centrarInternalFrame(JInternalFrame interna) {
