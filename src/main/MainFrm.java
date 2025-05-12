@@ -6,7 +6,7 @@ package main;
 
 import javax.swing.JInternalFrame;
 import paridad.JifParidad;
-import polinomica.JifPolinomica;
+import verificarSuma.JifVerificarSuma;
 import redundanciaCiclica.JifCiclica;
 import redundanciaLongitudinal.Longitudinal;
 
@@ -35,11 +35,11 @@ public class MainFrm extends javax.swing.JFrame {
         dspFondo.setLayout(dspFondoLayout);
         dspFondoLayout.setHorizontalGroup(
             dspFondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 627, Short.MAX_VALUE)
+            .addGap(0, 750, Short.MAX_VALUE)
         );
         dspFondoLayout.setVerticalGroup(
             dspFondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 392, Short.MAX_VALUE)
+            .addGap(0, 474, Short.MAX_VALUE)
         );
 
         jMenu1.setText("ITEMS");
@@ -104,8 +104,8 @@ public class MainFrm extends javax.swing.JFrame {
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 
     private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem2ActionPerformed
-        JifPolinomica polinomica = new JifPolinomica();
-        polinomica.setVisible(true);
+        JifVerificarSuma polinomica = new JifVerificarSuma();
+        centrarInternalFrame(polinomica);
     }//GEN-LAST:event_jMenuItem2ActionPerformed
 
     private void jMenuItem3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem3ActionPerformed
